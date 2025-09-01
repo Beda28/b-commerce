@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0E142B;
+  background-color: #0E1B2A;
+  overflow-x: hidden;
+  scrollbar: none;
 }
 
 body{
@@ -13,4 +15,8 @@ body{
 #root{
   width: 100%;
   height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

@@ -18,11 +18,11 @@ export const LoginButton = styled.button`
     align-items: center;
     justify-content: center;
 
-    background-color: ${theme.background.box3};
-    color: ${theme.text.main};
+    background-color: ${theme.button.main};
+    color: ${theme.button.text};
 
     &:hover{
         cursor: pointer;
-        background-color: ${theme.button.main};
+        background-color: ${theme.button.hover};
     }
 `

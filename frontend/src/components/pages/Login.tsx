@@ -4,6 +4,7 @@ import { ChangeTypeBox, LoginBox, LoginTypeBox } from "../Box/LoginBox"
 import { LoginTitle } from "../Text/LoginText"
 import { LoginInput } from "../Input/LoginInput"
 import { LoginButton } from "../Button/LoginButton"
+import { IndexHeader } from "../middlecomponent/Header"
 
 export const Login = () => {
     const [active, setactive] = useState<boolean>(true);
@@ -13,6 +14,7 @@ export const Login = () => {
     }
 
     return <>
+        <IndexHeader></IndexHeader>
         <LoginBackground>
             <LoginBox>
                 <LoginTitle>B.C.</LoginTitle>

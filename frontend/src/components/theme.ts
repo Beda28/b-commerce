@@ -4,14 +4,13 @@ const theme = {
         box1: "#1B2640",
         box2: "#0A1121",
         box3: "#4B517A",
-    
         radius: "#4B517A"
     },
-    
+
     text: {
         main: "#D8DDEF",
         sub: "#9CA6BF",
-        active: "#E7A4A4",
+        active: "#E7A4A4"
     },
 
     input: {
@@ -20,10 +19,16 @@ const theme = {
         text: "#D8DDEF"
     },
 
+    button_alt: {
+        main: "#E67E22", 
+        hover: "#F39C45", 
+        text: "#FFFFFF"
+    },
+
     button: {
-        main: "#8B63A3",
-        hover: "#A37DBE",
-        text: "#F0F4FF",
+        main: "#4B77BE",  
+        hover: "#5D8DD6",
+        text: "#FFFFFF"
     }
 }
 
