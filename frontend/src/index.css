@@ -2,9 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #0E142B;
 }
 
 body{
   width: 100vw;
   height: 100vh;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
 }
